@@ -1,4 +1,6 @@
-package poo.polinomi;
+package poo.main;
+
+import poo.polinomi.*;
 
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -69,7 +71,7 @@ class FrameGUI extends JFrame{
 	private static int selezionate  = 0; //conta quante celle sono state selezionate
 	private static Map<Integer, JCheckBox> elencoCheckbox= new TreeMap<>();//poiché useremo come chiave il numerodi checkbox, le checkbox della mappa saranno ordinate per inserimento
 	
-	private static Polinomio polinomio = null;//questa variabile, una volta inizializzata attraverso il radioButton, sarà utilizzata 
+	private static Polinomio polinomio = null;//questa variabile, una volta inizializzata attraverso il radioButton, sarà utilizzata
 	  										  //come base per creare, attraverso il metodo factory, tutti i polinomi implementati con la struttura dati scelta
 	private static JPanel pannelloCheckbox ;
 	
