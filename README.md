@@ -1,4 +1,4 @@
-# # Progetto Polinomi
+## Progetto Polinomi
 
 Il progetto Polinomi si compone di due package: `poo.util`, munito delle classi e delle interfacce necessarie per l’utilizzo delle strutture dati Albero Binario e Lista Concatenata Ordinata, e `poo.polinomi`, composto dalle classi necessarie per l’implementazione dei polinomi nelle varie strutture dati richieste; nello stesso package sono inoltre presente le due classi principali “PolinomioGUI.java” che implementa l’interfaccia grafica e “PolinomioUtil.java”, che rappresenta una classe di utilità contenente i metodi adibiti al controllo della validità dei polinomi e alla conversione dei polinomi in stringhe e viceversa.
 
